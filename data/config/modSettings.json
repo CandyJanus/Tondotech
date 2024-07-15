@@ -1,0 +1,7 @@
+{
+	#If you so wish, you can disable the factions/subfactions contained within this mod. Will not work retroactively. If you disable both factions, you will have no content.
+	"seven_nexus": {
+		"enableEptaFaction": true
+	},
+}
+
