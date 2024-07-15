@@ -1,13 +1,13 @@
 {
     "id": "AngelConfederacy",
     "name": "A Test Mod",
-    "author": "E e",
+    "author": "Kirbo",
     "utility": "false",
     "version": { "major":"1", "minor": "0", "patch": "0" },
     "description": "Mod description.",
     "gameVersion": "0.95.1a-RC6",
-    "jars":["jars/AngelConfederacy.jar"],
-    "modPlugin":"data.scripts.testModPlugin",
+    "jars":["jars/TondoTech.jar"],
+    "modPlugin":"data.scripts.TondoTechModPlugin",
     "dependencies": [
         {
             "id": "lw_lazylib",
