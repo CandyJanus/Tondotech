@@ -8,18 +8,16 @@ import org.magiclib.util.MagicSettings;
 
 import java.util.Map;
 
-public class TendoTechModPlugin extends BaseModPlugin {
+public class TondoTechModPlugin extends BaseModPlugin {
 
-    private static org.apache.log4j.Logger log = Global.getLogger(TendoTechModPlugin.class);
+    private static org.apache.log4j.Logger log = Global.getLogger(TondoTechModPlugin.class);
 
     public void onApplicationLoad() {
         Global.getSettings().resetCached();
     }
     @Override
     public void onNewGame() {
-        Map<String, Object> data = Global.getSector().getPersistentData();
-        campaignSetup();
-        data.put("TondoTech_generated", "version 0.0.0");
+        //remember, handling campaign setup in onNewGame is gay, never do it
     }
 
 
@@ -28,8 +26,11 @@ public class TendoTechModPlugin extends BaseModPlugin {
         Map<String, Object> data = Global.getSector().getPersistentData();
         boolean loadIntoExistingSave= MagicSettings.getBoolean("TondoTech","loadIntoExistingSave");
         if(loadIntoExistingSave) {
-            campaignSetup();
-           data.put("TondoTech_generated", "version 0.0.0");
+            if(!data.containsKey("TondoTech_generated"))
+            {
+                campaignSetup();
+                data.put("TondoTech_generated", "version 0.0.0");
+            }
         }
     }
 

@@ -1,12 +1,12 @@
 {
     "id": "TondoTech",
     "name": "TendoTech",
-    "author": "Kirbo",
+    "author": "barack obama",
     "utility": "false",
     "version": { "major":"0", "minor": "0", "patch": "0" },
     "description": "Mod description.",
-    "gameVersion": "0.95.1a-RC6",
-    "jars":["jars/TondoTech.jar"],
+    "gameVersion": "0.97a-RC6",
+    "jars":["jars/Tondotech.jar"],
     "modPlugin":"data.scripts.TondoTechModPlugin",
     "dependencies": [
         {
