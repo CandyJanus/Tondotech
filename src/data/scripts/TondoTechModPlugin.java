@@ -17,7 +17,7 @@ public class TondoTechModPlugin extends BaseModPlugin {
     }
     @Override
     public void onNewGame() {
-        //remember, handling campaign setup in onNewGame is gay, never do it
+        //handling campaign setup in onNewGame is for cowards
     }
 
 
