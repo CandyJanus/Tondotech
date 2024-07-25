@@ -54,6 +54,8 @@ public class TondoTechModPlugin extends BaseModPlugin {
         //set all the relations
         SharedData.getData().getPersonBountyEventData().addParticipatingFaction("silverBulletInstitute");
 
+        //I asked porterhaus to do this
+
 //        FactionAPI silverBulletInstitute = sector.getFaction("silverBulletInstitute");
 //        FactionAPI player = sector.getFaction(Factions.PLAYER);
 //        FactionAPI hegemony = sector.getFaction(Factions.HEGEMONY);

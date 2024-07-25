@@ -1,5 +1,5 @@
 {
-    # Based in the Kyeltziv faction, credits for Amazigh	
+    # Based in the Kyeltziv faction, credits for Amazigh
 	"id":"silverBulletInstitute",
 
 	"color":[56,76,99,255],
@@ -10,8 +10,8 @@
 	"displayNameWithArticle":"Silver Bullet Institute",
 	"displayNameIsOrAre":"is",
 
-	//"logo":"graphics/factions/.png",
-	//"crest":"graphics/factions/.png",
+	"logo":"graphics/factions/eridani_utopia.png",
+	"crest":"graphics/factions/crest_neutral.png",
 
 	"showInIntelTab":false,
 	"shipNamePrefix":"SBS",
@@ -26,7 +26,7 @@
 	# variantOverrides restricts hulls to listed variants and adjusts their probability
 	"variantOverrides":{
 	},
-	
+
 	# multiplier for how often hulls show up in the faction's fleets
 	"hullFrequency":{
 		"tags":{
@@ -49,7 +49,7 @@
 	"knownShips":{
 		"tags":["silverBulletInstitute"],
 		"hulls":[
-
+            "tempest",
 
 		],
 	},
@@ -57,6 +57,7 @@
 	"priorityShips":{
 		"tags":["silverBulletInstitute"],
 		"hulls":[
+		    "tempest",
 		],
 	},
 	"knownFighters":{
@@ -83,7 +84,7 @@
 		"tags":[silverBulletInstitute],
 		"weapons":[
 
-	   
+
 	   #vanilla
 
 	   "harpoon",
@@ -114,26 +115,26 @@
 			advancedoptics,
 		],
 	},
-	
+
 	priorityHullMods:{
 	tags:[silverBulletInstitute],
 	HullMods:[
 	    ],
     },
-	
+
 	"factionDoctrine":{
 		"warships":5,
 		"carriers":2,
 		"phaseShips":3,
-		
+
 		"officerQuality":5,
 		"shipQuality":5,
 		"numShips":5,
-		
+
 		"shipSize":5,
-		
+
 		"aggression":4,
-		
+
 		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
@@ -154,7 +155,7 @@
 	"music":{
 
 	},
-	"internalComms":",
+	"internalComms":"tritachyon_internal",
 
 
 	"portraits":{
@@ -204,12 +205,30 @@
 			"spaceCommander":{"name":"space commander placeholder"},
 			"factionLeader":{"name":"placeholder"},
 			"seniorExecutive":{"name":"placeholder"},
+
+					"groundPrivate":{"name":"Ground Defence Executive Specialist"},
+            			"groundSergeant":{"name":"Assistant Ground Defence Commander"},
+            			"groundLieutenant":{"name":"Ground Defence Commander"},
+            			"groundCaptain":{"name":"Assistant Ground Defence Manager"},
+            			"groundMajor":{"name":" Ground Defence Manager"},
+            			"groundColonel":{"name":"Planetary Defence Manager"},
+            			"groundGeneral":{"name":"Planetary Defence Director"},
 		},
 		"posts":{
 			"factionLeader":{"name":"placeholder"},
 			"patrolCommander":{"name":"Patrol Manager"},
 			"fleetCommander":{"name":"Fleet Manager"},
 			"baseCommander":{"name":"Base Manager"},
+
+            "stationCommander":{"name":"Orbital Station Director"},
+            "outpostCommander":{"name":"Outpost Manager"},
+            "portmaster":{"name":"Port Manager"},
+
+            "supplyOfficer":{"name":"Logistics Manager"},
+            "supplyManager":{"name":"Logistics Director"},
+
+            "administrator":{"name":"Planetary Manager"},
+            "freeAdmin":{"name":"Freelance Planetary Manager"},
 		},
 	},
 	"voices":{
@@ -238,7 +257,7 @@
 			"canBombard":false,
 			"territorial":false,
 		},
-	},	
+	},
 	"fleetTypeNames":{
 		"trade":"placeholder",
 		"tradeLiner":"placeholder",
@@ -248,9 +267,8 @@
 		"patrolSmall":"placeholder",
 		"patrolMedium":"placeholder",
 		"patrolLarge":"placeholder",
-
 		"inspectionFleet":"placeholder",
-		"taskForce":"placeholder",
+		"taskForce":"Task Force Name",
 
 		"foodReliefFleet":"placeholder",
 	}
