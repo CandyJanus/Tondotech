@@ -7,7 +7,7 @@
     "description": "Mod description.",
     "gameVersion": "0.97a-RC6",
     "jars":["jars/Tondotech.jar"],
-    "modPlugin":"data.scripts.TondoTechModPlugin",
+    "modPlugin":"TondoTech.scripts.TondoTechModPlugin",
     "dependencies": [
         {
             "id": "lw_lazylib",

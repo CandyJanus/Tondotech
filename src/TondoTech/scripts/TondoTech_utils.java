@@ -1,4 +1,4 @@
-package data.scripts;
+package TondoTech.scripts;
 
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;

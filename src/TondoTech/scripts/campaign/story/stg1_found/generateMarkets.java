@@ -1,9 +1,9 @@
-package data.scripts.campaign.story.stg1_discovery;
+package TondoTech.scripts.campaign.story.stg1_found;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.FactionAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
-import data.scripts.campaign.systemGen.RapalloContainmentZone;
+import TondoTech.scripts.campaign.systemGen.RapalloContainmentZone;
 
 public class generateMarkets {
     generateMarkets(){

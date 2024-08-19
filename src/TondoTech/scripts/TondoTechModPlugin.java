@@ -1,13 +1,10 @@
-package data.scripts;
+package TondoTech.scripts;
 
+import TondoTech.scripts.campaign.systemGen.PenopStarDerelict;
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.campaign.FactionAPI;
-import com.fs.starfarer.api.campaign.RepLevel;
 import com.fs.starfarer.api.campaign.SectorAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.shared.SharedData;
-import data.scripts.campaign.systemGen.RapalloContainmentZone;
 import org.magiclib.util.MagicSettings;
 
 import java.util.Map;
@@ -46,8 +43,7 @@ public class TondoTechModPlugin extends BaseModPlugin {
 
         relationshipSetter(sector);
         //maybe have one terrain generator and story setup class
-
-
+        PenopStarDerelict.generate(sector);
     }
 
     void relationshipSetter(SectorAPI sector){
